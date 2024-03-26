@@ -4,9 +4,9 @@ Este proyecto te permitira interactuar con el funcionamiento de nuestra librerí
 
 ## Documentación
 
-Visualiza la documentación del paquete npm [https://www.npmjs.com/package/vdid-sdk-web](¡Aquí!)
+Visualiza la documentación del paquete npm [Aquí](https://www.npmjs.com/package/vdid-sdk-web)
 
-## Quieres probarlo
+## Ejecutarlo
 
 Una vez que descargues el proyecto, en el directorio del proyecto, debe hacer lo siguiente:
 
