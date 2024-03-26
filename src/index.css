@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+
+:root {
+  background-color: #d6dbe2;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body,
+button {
+  margin: 0;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  color: #1b1919;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.main_content {
+  height: 100dvh;
+  min-height: 100dvh;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+}
+
+.description {
+  padding: 2rem 0 2rem 0;
+  line-height: 25px;
+  width: 600px;
+}
+
+.description > h2 {
+  padding-bottom: 1rem;
+  color: #9144d8;
+}
+.description > p {
+  color: #636d79;
+}
+
+.error {
+  background-color: #fda4a4b6;
+  color: #db2727c2;
+  border-radius: 10px;
+  margin-bottom: 3rem;
+  padding: 0.6rem 1rem;
+  width: 400px;
+  font-size: 13px;
+}
+
+.btn_start_process {
+  position: relative;
+  margin: auto;
+  padding: 19px 22px;
+  transition: all 0.2s ease;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.btn_start_process:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 28px;
+  background: #ffab9d80;
+  width: 56px;
+  height: 56px;
+  transition: all 0.3s ease;
+}
+.btn_start_process span {
+  position: relative;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 900;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+.btn_start_process:hover:before {
+  width: 100%;
+  background: #ffab9d;
+}
+
+.btn_start_process:active {
+  transform: scale(0.96);
+}
+
+.btn_start_process:disabled {
+  cursor: not-allowed;
+}
+
+.details {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: calc(100% - 40px);
+  font-size: 12px;
+  color: gray;
+}
+
+@media only screen and (max-width: 600px) {
+  .description {
+    width: 90%;
+  }
+  .error {
+    width: 70%;
+    padding: 0.8rem 1rem;
+  }
+}
