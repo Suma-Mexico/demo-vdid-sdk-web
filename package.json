@@ -9,13 +9,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "preact": "^10.25.4",
-    "vdid-sdk-web": "^2.0.0"
+    "preact": "^10.26.4",
+    "vdid-sdk-web": "^2.0.1"
   },
   "devDependencies": {
-    "@preact/preset-vite": "^2.9.3",
-    "@types/node": "^22.10.4",
+    "@preact/preset-vite": "^2.10.1",
+    "@types/node": "^22.13.13",
     "typescript": "^5.7.2",
-    "vite": "^5.4.11"
+    "vite": "^6.2.3"
   }
 }
