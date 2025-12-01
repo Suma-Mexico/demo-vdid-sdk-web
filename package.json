@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "preact": "^10.26.4",
-    "vdid-sdk-web": "^2.0.1"
+    "vdid-sdk-web": "^2.1.3"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.10.1",
